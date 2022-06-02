@@ -1,0 +1,48 @@
+.main {
+  margin: 20px;
+}
+
+.expression {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.equals {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input-field {
+  padding: 4px;
+  font-size: 18px;
+}
+
+.input {
+  padding-right: 20px;
+}
+
+.message {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.success {
+  color: green;
+}
+
+.failure {
+  color: red;
+}
+
+.button {
+  padding-right: 10px;
+}
+
+button {
+  font-size: 15px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: royalblue;
+}
