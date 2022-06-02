@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Instructions } from "./Instructions";
+import { Scoring } from "./Scoring";
 import { getCorrectAnswer } from "../services/getCorrectAnswer";
 import { generateInputs } from "../utilities/generateInputs";
 import "../../public/stylesheets/App.css";
@@ -71,6 +72,13 @@ const Main = () => {
     <div className="main">
       <h1>Addition Practice</h1>
       <Instructions />
+      <br />
+      <Scoring
+        correct={correct}
+        incorrect={incorrect}
+        setCorrect={setCorrect}
+        setIncorrect={setIncorrect}
+      />
       <br />
       <form onSubmit={submitHandler}>
         <div className="expression">

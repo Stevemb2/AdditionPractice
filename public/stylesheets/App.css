@@ -46,3 +46,8 @@ button {
   color: white;
   background-color: royalblue;
 }
+
+.scoring {
+  padding: 10px;
+  font-size: 20px;
+}
