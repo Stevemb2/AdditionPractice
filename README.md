@@ -26,6 +26,8 @@ To start up parcel run the command, 'npm run dev'.
 
 To start up the node server run the command, 'node ./server/index.js'.
 
+Then point the browser to http://localhost:3000 to access the application.
+
 Unit tests are written in Jest. To run the unit tests run the command 'npm run test'.
 
 Other developers can contribute to the code base by opening up a pull request.
